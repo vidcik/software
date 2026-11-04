@@ -3,9 +3,9 @@ name: Deploy ELECTRA to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["vdcan"]
   workflow_dispatch:
-
+  
 permissions:
   contents: read
   pages: write
